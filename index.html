@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
 
@@ -17,25 +18,50 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>HTML is building blocks of the page where we define the content and framework.</li>
+          <li><span class="boldit">HTML</span> is building blocks of the page where we define the content and framework.</li>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
           <li>The head element contains metadata, which helps the browser render the page correctly</li>
           <li>Elements included in the head are not visible to the user, with the exception of the title, which shows up on the browser tab.</li>
+         
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS defines the style of the page.</li>
+          <li><span class="boldit">CSS</span> defines the style of the page.</li>
+          <li>There are three ways to style a webpage using CSS:</li>
+          <ul>
+            <li class="special">Inline CSS</li>
+            <ul>
+              <li>This is used when you want to style an element directly in the HTML file</li>
+              <li>Apply to a specific HTML tag, uxing a style attribute with a CSS rule to style a particular page element only.</li>
+              <li>Useful for quick and permanent changes but are less flexible than external and internal style sheets.</li>
+            </ul>
+          <li class="special">Internal CSS Style Sheet</li>
+            <ul>
+              <li>Embeds an entire stylesheet directly in the HTML file.</li>
+              <li>Contains CSS rules for the webpage in the head section of the HTML file.</li>
+              <li>Rules only apply to THAT page and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code.</li>
+              <li>The CSS rule will apply to all tagged page elements.</li>
+            </ul>
+          <li class="special">External CSS Style Sheet</li>
+            <ul>
+              <li>Most common way to style a webpage.</li>
+              <li>This is preferred in most cases because it allows the developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+            </ul>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          </ul>
+            
         </ul>
         </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Git allows us to works on projects simultaneously with other programmers.</li>
+          <li><span class="boldit">Git</span> allows us to works on projects simultaneously with other programmers.</li>
           <li>Git provides version control, ensuring we don't loose our work and can restore previous versions of code when needed.</li>
           <li>git status: checks what branch we are currently on.</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
@@ -47,7 +73,7 @@
       <section class="card" id="javascript-section">
         <h2>JaveScript</h2>
         <ul>
-          <li>We add JavaScript to our HTML structure to make the website interactive.</li>
+          <li>We add <span class="boldit">JavaScript</span> to our HTML structure to make the website interactive.</li>
         </ul>
       </section>
     </main>
