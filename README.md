@@ -2,7 +2,7 @@
 
 ## Description
 
-This Study Guide was greated to assist new bootcamp students as they complete their Prework for the course. Contained in this Study Guide are notes on HTML, CSS, git and JavaScript. 
+This Study Guide was created to assist new bootcamp students as they complete their Prework for the course. Contained in this Study Guide are notes on HTML, CSS, git and JavaScript. 
 
 ## Installation
 
